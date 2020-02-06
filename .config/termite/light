@@ -1,0 +1,88 @@
+[options]
+#allow_bold = true
+#audible_bell = false
+#bold_is_bright = true
+#cell_height_scale = 1.0
+#cell_width_scale = 1.0
+#clickable_url = true
+#dynamic_title = true
+font = Monospace 12
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# "system", "on" or "off"
+#cursor_blink = system
+
+# "block", "underline" or "ibeam"
+#cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+# "off", "left" or "right"
+#scrollbar = off
+
+[colors]
+# If both of these are unset, cursor falls back to the foreground color,
+# and cursor_foreground falls back to the background color.
+#cursor = #dcdccc
+#cursor_foreground = #dcdccc
+
+#foreground = #dcdccc
+#foreground_bold = #ffffff
+#background = #3f3f3f
+
+# 20% background transparency (requires a compositor)
+background = rgba(248, 246, 242, 0.8)
+
+# If unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# Colors from color0 to color254 can be set
+color7 =  #1c1b1a /* - Default Background */
+color6 =  #242321 /* - Lighter Background (Used for status bars) */
+color5 =  #35322d /* - Selection Background */
+color4 =  #45413b /* - Comments, Invisibles, Line Highlighting */
+color3 =  #666462 /* - Dark Foreground (Used for status bars) */
+color2 =  #998f84 /* - Default Foreground, Caret, Delimiters, Operators */
+color1 =  #d9cec3 /* - Light Foreground (Not often used) */
+color0 =  #f8f6f2 /* - Light Background (Not often used) */
+color8 =  #ff2c4b /* - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted */
+color9 =  #0a9dff /* - Integers, Boolean, Constants, XML Attributes, Markup Link Url */
+color10 = #fade3e /* - Classes, Markup Bold, Search Text Background */
+color11 = #aeee00 /* - Strings, Inherited Class, Markup Code, Diff Inserted */
+color12 = #8cffba /* - Support, Regular Expressions, Escape Characters, Markup Quotes */
+color13 = #ffa724 /* - Functions, Methods, Attribute IDs, Headings */
+color14 = #ff9eb8 /* - Keywords, Storage, Selector, Markup Italic, Diff Changed */
+color15 = #c7915b /* - Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?> */
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s

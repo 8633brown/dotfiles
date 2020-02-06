@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ln -sf light ~/.config/termite/config
+killall -USR1 termite
+export THEME=light
